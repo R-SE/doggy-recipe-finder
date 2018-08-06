@@ -11,7 +11,6 @@ class App extends Component {
   render() {
     return (
       <div>
-        My App
         <LandingBar />
         <SearchBar />
         <ResultsDisplay />
