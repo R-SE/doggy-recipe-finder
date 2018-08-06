@@ -31,7 +31,7 @@ class Search extends Component {
   render() {
     return (
       <div>
-        <input onChange={this.handleSearch} placeholder="Type to search for recipes"></input>
+        <input className="search-bar" onChange={this.handleSearch} placeholder="Type to search for recipes"></input>
         <ResultsDisplay recipes={this.state.recipes}/>
       </div>
     )

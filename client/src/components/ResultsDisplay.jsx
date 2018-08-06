@@ -1,8 +1,8 @@
 import React from 'react';
 
 const ResultsDisplay = ({recipes}) => {
-  if (!recipes) return (<div>Recipes you search for will populate here!</div>)
-  if (!recipes.length) return (<div>No recipes found for your query. Please try again!</div>)
+  if (!recipes) return (<h1>Recipes you search for will populate here!</h1>)
+  if (!recipes.length) return (<h1>No recipes found for your query. Please try again!</h1>)
   return (
     <div>
       {recipes.map((recipe, i) => (

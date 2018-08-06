@@ -1,0 +1,15 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: url('http://www.dogbreedslist.info/dog-wallpapers/Golden-Retriever-puppies-sandbeach-seaside-900x506.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 1em;
+}
+
+.search-bar {
+  width: 50%;
+  padding: .5em;
+  font-size: 2em;
+}
